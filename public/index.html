@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Mobile view sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="main.js"></script>
@@ -13,6 +16,18 @@
       <div class='row text-center'>
         <div class='col-md-12'>
           <div id='city'></div>
+        </div>
+      </div>
+      <div class='row text-center'>
+        <div class='col-sm-12 col-md-5 offset-md-1'>
+          <div id='temp'>
+            <div id='farenheit'></div>
+            <div id='degreeF'></div>
+            <div id='celsius'></div>
+            <div id='degreeC'></div>
+          </div>
+        </div>
+        <div class='col-sm-12 col-md-5 condition'>
           <i id='condition'></i>
         </div>
       </div>
